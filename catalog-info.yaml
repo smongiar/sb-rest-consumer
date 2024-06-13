@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sb-rest-consumer"
+  description: "Template sb rest consumer launch test"
+  tags:
+    - java
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/backstage-admins"
+  system: my-system
+  consumesApis: 
+    - 
